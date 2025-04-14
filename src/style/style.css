@@ -40,4 +40,7 @@ button {
 #result {
     margin-top: 10px;
     font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #e6ffe6;
 }
