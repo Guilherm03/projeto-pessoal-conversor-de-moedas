@@ -43,5 +43,5 @@ convertBtn.addEventListener('click', () =>{
     const rate = exchangeRates[fromCurrency][toCurrency];
     const result = amount * rate;
 
-    resultDiv.textContent = `${amount}${fromCurrency} = ${result.toFixed(2)}${toCurrency}`
+    resultDiv.textContent = `${amount} ${fromCurrency} = ${result.toFixed(2)} ${toCurrency}`
 });
